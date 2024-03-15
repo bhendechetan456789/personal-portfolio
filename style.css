@@ -1,0 +1,56 @@
+/* Resetting margin and padding for all elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, figure, table, caption, th, td {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Styling sections */
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Styling links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Adding margin-left to unordered and ordered lists */
+ul, ol {
+    margin-left: 15px;
+}
+
+/* Styling headings */
+h1 {
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 10px; /* Adding some spacing below the heading */
+}
+
+h2 {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px; /* Adding some spacing below the heading */
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+    margin-bottom: 10px; /* Adding some spacing below the heading */
+}
+
+/* Setting font family for the entire document */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Increased padding for better spacing */
+    text-align: center;
+}
